@@ -147,11 +147,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="PhoneBookArr.cpp" />
+    <ClCompile Include="NameCard.cpp" />
     <ClCompile Include="ArrList.cpp" />
+    <ClCompile Include="PhoneBookArr.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ArrList.h" />
+    <ClInclude Include="NameCard.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
