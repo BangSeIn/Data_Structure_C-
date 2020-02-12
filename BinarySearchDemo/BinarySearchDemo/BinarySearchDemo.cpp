@@ -2,6 +2,8 @@
 #include "Bsearch.h"
 using namespace std;
 
+//*ATTENTION* this algorithm only works in Sorted-data Array
+
 int main() {
 	int n; Data s;
 	cout << "Set the size of Array : ";
