@@ -18,19 +18,17 @@ struct Deque {
 	Node* tail;
 };
 
-void Init(Deque& dq);
-int IsEmpty(Deque& dq);
+void Init(Deque* dq);
+int IsEmpty(Deque* dq);
 
-void EnqHead(Deque& dq, Data data);
-void EnqTail(Deque& dq, Data data);
+void EnqHead(Deque* dq, Data data);
+void EnqTail(Deque* dq, Data data);
 
-Data DeqHead(Deque& dq);
-Data DeqTail(Deque& dq);
+Data DeqHead(Deque* dq);
+Data DeqTail(Deque* dq);
 
-Data GetHead(Deque& dq);
-Data GetTail(Deque& dq);
+Data GetHead(Deque* dq);
+Data GetTail(Deque* dq);
 
-void SetHead(Deque& dq, Node& n2);
-void SetTail(Deque& dq, Node& n2);
-
+void Print(Deque* dq);
 #endif
